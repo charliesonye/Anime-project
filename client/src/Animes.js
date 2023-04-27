@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
 
