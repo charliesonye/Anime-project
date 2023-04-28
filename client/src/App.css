@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Kongtext';
+  src: url(../public/kongtext.ttf);
+}
+
 .App {
   position: absolute;
   text-align: center;
@@ -66,7 +71,7 @@ h1 , h2{
 .animeSearchBar {
   position: absolute;
   left: 5%;
-  width: 15%;
+  width: 16%;
 }
 
 .rightArrow {
