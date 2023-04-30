@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     fetch('/animes')
     .then(res => res.json())
-    .then(data => {debugger})
+    .then(data => setAnimes(data))
     
   }, [])
   
