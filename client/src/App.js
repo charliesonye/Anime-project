@@ -13,17 +13,18 @@ function App() {
   const [score, setScore] = useState(0)
   const [animes, setAnimes] = useState([])
   const [searchText, setSearchText] = useState('')
+  
 
   useEffect(() => {
     fetch('/animes')
     .then(res => res.json())
-    .then(data => setAnimes(data))
+    .then(data => {debugger})
+    
   }, [])
-
+  
   function addAnime(animes,newAnime){ 
     setAnimes([...animes, newAnime])
   }
-
 
 
 
