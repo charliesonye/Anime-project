@@ -1,31 +1,45 @@
-# README
+# Anime Introduction
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Project Description
 
-Things you may want to cover:
+This project was created to expose anime fans to some of my favorite shows, characters and test their knowledge of anime. They are also encouraged to add animes to the current list.
 
-* Ruby version
+## Client Contents
 
-* System dependencies
+* [Project Description](#project-Description)
+* [Features](#features)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Link to server side of this application](https://github.com/charliesonye/phase-2-server)
 
-* Configuration
+## Features
+* See random/popular quotes from popular anime character 
+* Can participate in a quiz about animes
+* View a list animes and the ability to add to it
 
-* Database creation
+## Technologies
+The technologies used within this app:
+* React.js
+* React-router-dom 5.2.0
 
-* Database initialization
+## Setup
+To run locally:
+```
+$ cd p2-project
+$ npm install
+$ json-server --watch db.json
+$ npm start
 
-* How to run the test suite
+```
+## References
 
-* Services (job queues, cache servers, search engines, etc.)
+  Animechan(2022)Random[API].
+  https://animechan.vercel.app/api/random
+----------------------------------------------------------------------------------------------
 
-* Deployment instructions
 
-* ...
 
-## P2-Server
-
-## Contents
+## Server Contents
 
 * [Technologies](#technologies)
 * [Setup](#setup)
